@@ -1,0 +1,23 @@
+//= require vendor/casper
+//= require _syntax
+
+// Overwrite some styles from casper.css
+pre.highlight {
+  word-wrap: normal;
+  code {
+    white-space: pre;
+  }
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.page-title {
+  font-size: 4rem;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.page-description {
+  font-family: "Noto Serif", serif;
+}
