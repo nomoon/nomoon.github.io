@@ -20,6 +20,7 @@ baseurl: ""
 url: "https://nomoon.github.io/"
 twitter_username: nomoon
 github_username:  nomoon
+lang: en_CA
 
 # Build settings
 markdown: kramdown
