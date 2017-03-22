@@ -13,7 +13,7 @@ config[:casper] = {
     logo: nil # Optional
   },
   author: {
-    name: "Tim Bellefleur",
+    name: "Tim B",
     bio: nil, # Optional
     location: nil, # Optional
     website: "https://nomoon.github.io/", # Optional
@@ -22,6 +22,10 @@ config[:casper] = {
   },
   navigation: {
     "Home" => "/",
+    "Academia.edu Profile" => "https://ubc.academia.edu/tbelle",
+    "GitHub (nomoon)" => "https://github.com/nomoon",
+    "GitHub (UBC Sanskrit)" => "https://github.com/ubcsanskrit",
+    "Contact" => "mailto:nomoon@phoebus.ca",
   },
 }
 
@@ -91,8 +95,8 @@ activate :blog do |blog|
   blog.sources = "articles/{year}-{month}-{day}-{title}.html"
   blog.taglink = "tag/{tag}.html"
   # blog.layout = "layout"
-  # blog.summary_separator = /(READMORE)/
-  # blog.summary_length = 250
+  blog.summary_separator = /(READMORE)/
+  blog.summary_length = 300
   # blog.year_link = "{year}.html"
   # blog.month_link = "{year}/{month}.html"
   # blog.day_link = "{year}/{month}/{day}.html"
@@ -126,6 +130,9 @@ activate :sprockets
 #     "Helping"
 #   end
 # end
+
+# Ignore processing for things in the /pub directory
+page %r{^/pub/}, layout: false, directory_index: false
 
 # Build-specific configuration
 configure :build do

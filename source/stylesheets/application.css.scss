@@ -9,6 +9,30 @@ pre.highlight {
   }
 }
 
+h1, h2, h3, h4 {
+  font-family: "Noto Sans", sans-serif;
+}
+
+h1 {
+  font-size: 3.2rem;
+  letter-spacing: 0;
+}
+
+h2 {
+  font-size: 2.8rem;
+  letter-spacing: 0;
+}
+
+h3 {
+  font-size: 2.4rem;
+  letter-spacing: 0;
+}
+
+h4 {
+  font-size: 2rem;
+  letter-spacing: 0;
+}
+
 body {
   font-family: "Noto Sans", sans-serif;
 }
@@ -20,4 +44,12 @@ body {
 
 .page-description {
   font-family: "Noto Serif", serif;
+}
+
+body:not(.post-template) .post-title {
+  font-size: 2.8rem;
+}
+
+.post-template .post-title {
+  font-size: 3.6rem;
 }
