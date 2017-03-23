@@ -8,11 +8,9 @@ gem "rake"
 # Middleman Gems
 gem "middleman", "~> 4.0"
 gem "middleman-blog", "~> 4.0"
+gem "middleman-gh-pages"
 gem "middleman-livereload"
 gem "middleman-sprockets", "~> 4.0.0"
-
-# Middleman Extensions
-gem "mgd"
 
 # For feed.xml.builder
 gem "builder", "~> 3.2.2"

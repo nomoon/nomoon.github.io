@@ -2,11 +2,8 @@
 require "rubygems"
 require "bundler/setup"
 
-desc "Deploy to nomoon.github.io(master)"
-task :deploy do
-  ARGV.replace ["--url", "git@github.com:nomoon/nomoon.github.io.git", "--branch", "--master"]
-  load Gem.bin_path("mgd", "mgd")
-end
+require "middleman-gh-pages"
+ENV["BRANCH_NAME"] = "master"
 
 desc "Run development server"
 task :server do
