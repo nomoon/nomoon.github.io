@@ -36,6 +36,11 @@ module MiddlemanCasperHelpers
     end
   end
 
+  def summary(article)
+    summary_length = article.blog_options[:summary_length]
+    article.summary(summary_length, "...")
+  end
+
   def read_next_summary(article, words)
     body = strip_tags(article.body)
     truncate_words(body, length: words, omission: "")
