@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>There's No Moon Over the Web: linked data</title>
+  <subtitle>Posts tagged with linked data</subtitle>
+  <id>https://nomoon.github.io</id>
+  <link href="https://nomoon.github.io"/>
+  <link href="https://nomoon.github.io/tag/linked-data/feed.xml" rel="self"/>
+  <updated>2017-03-21T17:00:00-07:00</updated>
+  <author>
+    <name>Tim B</name>
+  </author>
+  <entry>
+    <title>Presentation @ AOS, March 2017</title>
+    <link rel="alternate" href="https://nomoon.github.io/2017/03/22/aos-2017-presentation/"/>
+    <id>https://nomoon.github.io/2017/03/22/aos-2017-presentation/</id>
+    <published>2017-03-21T17:00:00-07:00</published>
+    <updated>2017-03-22T16:46:55-07:00</updated>
+    <author>
+      <name>Tim B</name>
+    </author>
+    <summary type="html">&lt;p&gt;“&lt;strong&gt;&lt;em&gt;Textual Intranets: Using Linked Data to Comprehend Manuscript Traditions&lt;/em&gt;&lt;/strong&gt;”&lt;/p&gt;
+
+&lt;p&gt;Presented at the &lt;a href="https://www.americanorientalsociety.org/aos-program-227th-annual-meeting-los-angeles/" rel="nofollow"&gt;227th Annual Meeting of the American Oriental Society&lt;/a&gt;
+  in Los Angeles (March 17-20, 2017) as part of the special panel: “&lt;em&gt;&lt;a href="https://sohnyrin.github.io/text_as_data/" rel="nofollow"&gt;Text As
+  Data: Digital Humanities for Text Analysis&lt;/a&gt;&lt;/em&gt;”&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/pub/aos2017-slides/" rel="nofollow"&gt;HTML presentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pub/aos2017-slides.pdf" rel="nofollow"&gt;PDF slides&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</summary>
+  </entry>
+</feed>
